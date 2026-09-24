@@ -1,3 +1,9 @@
+# Number Guessing Game with Limit
+# Problem Statement:
+# Create a number guessing game using a while loop that generates a random target number.
+# Allow the user a maximum of 5 attempts.
+# After each incorrect guess, inform the user whether their guess was "Too High" or "Too Low".
+# Terminate the loop immediately if the user guesses correctly or runs out of attempts. give me the ans
 import random
 def number_guessing_game():
     target_number = random.randint(1, 100)
