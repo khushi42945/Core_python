@@ -1,4 +1,4 @@
-def get_second_max_and_unique(numbers):
+def second_max_F(numbers):
     max1 = None
     max2 = None
     unique_list = []
@@ -23,7 +23,7 @@ if user_input.strip() == "":
 else:
     user_list = [int(x) for x in user_input.split()]
 
-second_max, unique = get_second_max_and_unique(user_list)
+second_max, unique = second_max_F(user_list)
 
 print(f"\nAapki List: {user_list}")
 print(f"Second Max: {second_max}")
