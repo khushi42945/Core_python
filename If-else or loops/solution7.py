@@ -6,7 +6,7 @@ def second_max_F(numbers):
     for num in numbers:
         if num not in unique_list:
             unique_list.append(num)
-        
+     
         if max1 is None or num > max1:
             max2 = max1
             max1 = num
